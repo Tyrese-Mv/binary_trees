@@ -42,4 +42,5 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t max(size_t left, size_t right);
+size_t binary_tree_depth(const binary_tree_t *tree);
 #endif
